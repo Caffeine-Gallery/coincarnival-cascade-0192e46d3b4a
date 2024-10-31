@@ -1,0 +1,5 @@
+service : {
+  getHighScore: () -> (nat) query;
+  resetGame: () -> ();
+  updateHighScore: (nat) -> ();
+}
