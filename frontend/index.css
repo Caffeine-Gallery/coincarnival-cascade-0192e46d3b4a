@@ -30,6 +30,7 @@ body {
     border: 2px solid #333;
     background-color: #222;
     border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .controls {
@@ -46,10 +47,16 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 button:hover {
     background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
 }
 
 #resetGame {
